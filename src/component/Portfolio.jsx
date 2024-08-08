@@ -2,6 +2,7 @@ import React from "react";
 import { SiK3S } from "react-icons/si";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
+import Projects from "./Projects";
 
 export default function Portfolio() {
   //Introduction/About Me -Briefly introduce yourself and your background.✔️
@@ -12,9 +13,10 @@ export default function Portfolio() {
 
   return (
     <>
-      <div className="w-full h-auto bg-gradient-to-r from-cyan-500 to-blue-500 ">
+      <div className="w-full h-auto px-10 bg-gradient-to-r from-teal-600 to-teal-800 ">
         <NavBar />
         <Hero />
+        <Projects />
       </div>
     </>
   );
