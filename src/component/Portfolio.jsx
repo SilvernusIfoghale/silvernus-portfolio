@@ -3,6 +3,7 @@ import { SiK3S } from "react-icons/si";
 import NavBar from "./NavBar";
 import Hero from "./Hero";
 import Projects from "./Projects";
+import AboutMe from "./AboutMe";
 
 export default function Portfolio() {
   //Introduction/About Me -Briefly introduce yourself and your background.✔️
@@ -17,6 +18,7 @@ export default function Portfolio() {
         <NavBar />
         <Hero />
         <Projects />
+        <AboutMe />
       </div>
     </>
   );
