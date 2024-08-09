@@ -1,14 +1,18 @@
 import React, { useState } from "react";
 import { CgClose } from "react-icons/cg";
 import { FaBars } from "react-icons/fa";
+import laptop from "../../public/laptop.png";
 
 export default function NavBar() {
   const [mobileNav, setMobileNav] = useState(false);
   return (
     <div className="flex items-center justify-between py-3 ">
       <div className="">
-        <span className="text-white italic text-2xl">Silver</span>
-        <span className="text-2xl text-gray-700 font-extrabold">#💻</span>
+        <span className="text-white  text-2xl">Silver</span>
+        <span className="text-2xl italic text-gray-700 font-bold">Dev</span>
+        <span>
+          <img src={laptop} alt="" className="inline w-7 h-7" />
+        </span>
       </div>
       <div>
         <ul className="sm:flex gap-2 text-white hidden ">

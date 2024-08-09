@@ -9,7 +9,7 @@ function Hero() {
   return (
     <>
       <div className=" leading-[3.2rem] my-16">
-        <Fade cascade>
+        <Fade cascade damping={0.2}>
           <p className="text-3xl font-bold text-gray-50 py-6">
             Hello <img src={wave} alt="" className="inline w-9 h-9 mb-2" />
           </p>
@@ -55,7 +55,7 @@ function Hero() {
               loop={0}
               cursor
               cursorStyle="|"
-              typeSpeed={70}
+              typeSpeed={40}
               deleteSpeed={50}
             />
           </p>

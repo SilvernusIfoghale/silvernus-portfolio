@@ -23,7 +23,7 @@ export default function AboutMe() {
               collaborate and turn your vision into reality!{" "}
             </p>
             <div className="flex my-6 gap-5">
-              <Reveal cascade>
+              <Reveal cascade damping={0.2}>
                 <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
                   <div className=" rounded-full overflow-hidden border-transparent border-2 w-[40px] h-[40px] hover:shadow-lg hover:shadow-gray-500">
                     <a
