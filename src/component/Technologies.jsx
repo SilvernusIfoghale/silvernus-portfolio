@@ -12,7 +12,7 @@ import github from "../../public/github.png";
 export default function Technologies() {
   return (
     <>
-      <div className="pt-10">
+      <div className="pt-10" id="experience">
         <div className="my-10 w-[95%]">
           <p className="text-white font-bold text-3xl">
             Technologies I'm Familiar With

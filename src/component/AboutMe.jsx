@@ -7,7 +7,10 @@ import github from "../../public/github-circular.png";
 export default function AboutMe() {
   return (
     <>
-      <div className="grid  sm:grid-cols-2 place-content-center items-center text-gray-100 gap-10 my-20 ">
+      <div
+        className="grid  sm:grid-cols-2 place-content-center items-center text-gray-100 gap-10 my-20  pt-10"
+        id="about"
+      >
         <div className="mb-5">
           <p className="font-bold text-3xl pb-9">About Me</p>
           <p className="text-sm">
@@ -19,30 +22,40 @@ export default function AboutMe() {
           </p>
           <div className="flex my-6 gap-5">
             <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
-              <div className=" rounded-full overflow-hidden border-transparent border-2 w-[40px] h-[40px]">
-                <img
-                  className=" object-cover w-full h-full rounded-full"
-                  src={linkedin}
-                  alt="linkedin"
-                />
+              <div className=" rounded-full overflow-hidden border-transparent border-2 w-[40px] h-[40px] hover:shadow-lg hover:shadow-gray-500">
+                <a
+                  href="https://www.linkedin.com/in/silvernus-ifoghale-012652262/"
+                  target="_blank"
+                >
+                  <img
+                    className=" object-cover w-full h-full rounded-full"
+                    src={linkedin}
+                    alt="linkedin"
+                  />
+                </a>
               </div>
             </div>
-            <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
+            <div className="border-2 hover:shadow-lg hover:shadow-gray-500 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center ">
               <div className=" rounded-full overflow-hidden border-transparent border-2 w-[38px] h-[38px]">
-                <img
-                  className=" object-cover w-full h-full rounded-full"
-                  src={x}
-                  alt="linkedin"
-                />
+                <a href="https://x.com/SilvernusSilver" target="_blank">
+                  <img
+                    className=" object-cover w-full h-full rounded-full"
+                    src={x}
+                    alt="linkedin"
+                  />
+                </a>
               </div>
             </div>
-            <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
+            <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center hover:shadow-lg hover:shadow-gray-500">
               <div className=" rounded-full overflow-hidden border-transparent border-2 w-[40px] h-[40px]">
-                <img
-                  className=" object-cover w-full h-full rounded-full"
-                  src={github}
-                  alt="linkedin"
-                />
+                <a href="https://github.com/SilvernusIfoghale" target="_blank">
+                  {" "}
+                  <img
+                    className=" object-cover w-full h-full rounded-full"
+                    src={github}
+                    alt="linkedin"
+                  />
+                </a>
               </div>
             </div>
           </div>

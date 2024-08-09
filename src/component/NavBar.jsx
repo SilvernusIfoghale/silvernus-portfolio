@@ -12,15 +12,22 @@ export default function NavBar() {
       </div>
       <div>
         <ul className="sm:flex gap-2 text-white hidden ">
-          <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
-            Projects
-          </li>
-          <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
-            About
-          </li>
-          <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
-            Experience
-          </li>
+          <a href="#project">
+            {" "}
+            <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4 ">
+              Projects
+            </li>
+          </a>
+          <a href="#about">
+            <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
+              About
+            </li>
+          </a>
+          <a href="#experience">
+            <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
+              Experience
+            </li>
+          </a>
         </ul>
         <FaBars
           onClick={() => setMobileNav(true)}
@@ -36,16 +43,25 @@ export default function NavBar() {
               size={30}
               className=" mt-2 sm:hidden z-10 fixed top-3 right-10 hover:cursor-pointer hover:scale-110"
             />
-            <ul className="sm:flex gap-2 text-white absolute sm:hidden bg-gray-600 w-[180px] h-[100vh] top-[0px] right-0 pt-12">
-              <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4 mt-3">
-                Projects
-              </li>
-              <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
-                About
-              </li>
-              <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
-                Experience
-              </li>
+            <ul
+              onClick={() => setMobileNav(false)}
+              className="gap-2 text-white absolute sm:hidden bg-gray-600 w-[180px] h-[100vh] top-[0px] right-0 pt-12"
+            >
+              <a href="#project">
+                <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4 mt-3">
+                  Projects
+                </li>
+              </a>
+              <a href="#about">
+                <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
+                  About
+                </li>
+              </a>
+              <a href="#experience">
+                <li className="hover:cursor-pointer hover:bg-gray-800 py-2 px-4">
+                  Experience
+                </li>
+              </a>
             </ul>
           </div>
         )}
