@@ -3,7 +3,7 @@ import React from "react";
 function Hero() {
   return (
     <>
-      <div className="w-[75%] leading-[3.2rem] my-5">
+      <div className="w-[75%] leading-[3.2rem] my-16">
         <p className="text-3xl font-semibold text-gray-50 py-6">Hello 👋</p>
         <p className="text-[2.8rem] font-bold text-gray-100 ">
           I'm

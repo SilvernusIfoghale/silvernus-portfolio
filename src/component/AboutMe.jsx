@@ -1,13 +1,13 @@
 import React from "react";
 import profile from "../../public/profile.jpg";
-import linkedin from "../../public/linkedin.png";
-import x from "../../public/x.png";
-import github from "../../public/github.png";
+import linkedin from "../../public/linkedin-circle.png";
+import x from "../../public/x-circle.png";
+import github from "../../public/github-circular.png";
 
 export default function AboutMe() {
   return (
     <>
-      <div className="grid  sm:grid-cols-2 place-content-center items-center text-gray-100 gap-10 my-14 ">
+      <div className="grid  sm:grid-cols-2 place-content-center items-center text-gray-100 gap-10 my-20 ">
         <div className="mb-5">
           <p className="font-bold text-3xl pb-9">About Me</p>
           <p className="text-sm">
@@ -19,7 +19,7 @@ export default function AboutMe() {
           </p>
           <div className="flex my-6 gap-5">
             <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
-              <div className=" rounded-full overflow-hidden border-transparent border-2">
+              <div className=" rounded-full overflow-hidden border-transparent border-2 w-[40px] h-[40px]">
                 <img
                   className=" object-cover w-full h-full rounded-full"
                   src={linkedin}
@@ -27,9 +27,24 @@ export default function AboutMe() {
                 />
               </div>
             </div>
-            <p>Linkin</p>
-            <p>X</p>
-            <p>GitHub</p>
+            <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
+              <div className=" rounded-full overflow-hidden border-transparent border-2 w-[38px] h-[38px]">
+                <img
+                  className=" object-cover w-full h-full rounded-full"
+                  src={x}
+                  alt="linkedin"
+                />
+              </div>
+            </div>
+            <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
+              <div className=" rounded-full overflow-hidden border-transparent border-2 w-[40px] h-[40px]">
+                <img
+                  className=" object-cover w-full h-full rounded-full"
+                  src={github}
+                  alt="linkedin"
+                />
+              </div>
+            </div>
           </div>
         </div>
 
