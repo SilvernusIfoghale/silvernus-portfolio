@@ -7,7 +7,7 @@ import { Bounce, Slide } from "react-awesome-reveal";
 export default function Projects() {
   return (
     <>
-      <div className="w-80 sm:w-full my-36 pt-10" id="project">
+      <div className="w-80 sm:w-full mb-36 pt-10" id="project">
         <Slide direction="left">
           <p className="text-gray-200 text-[2.7rem] font-bold pb-6 ">
             Projects I've Worked on

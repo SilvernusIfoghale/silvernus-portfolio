@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="flex items-center justify-center w-full mt-20 pb-5 pt-2 border-t-2 border-green-600">
-      <ul className="sm:flex gap-2 text-white hidden ">
+    <div className="flex items-center justify-center w-full py-10 ">
+      {/* <ul className="sm:flex gap-2 text-white hidden ">
         <a href="#">
           <li className="hover:cursor-pointer hover:underline py-2 px-4 ">
             Home
@@ -24,7 +24,7 @@ export default function Footer() {
             Experience
           </li>
         </a>
-      </ul>
+      </ul> */}
     </div>
   );
 }
