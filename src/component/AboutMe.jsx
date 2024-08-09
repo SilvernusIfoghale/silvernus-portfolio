@@ -9,10 +9,10 @@ export default function AboutMe() {
   return (
     <>
       <div
-        className="grid  sm:grid-cols-2 place-content-center items-center  gap-10 my-20  pt-10"
+        className="grid  sm:grid-cols-2 place-content-center items-center  gap-10 my-20  pt-10 px-2 "
         id="about"
       >
-        <div className="mb-5 text-gray-100">
+        <div className="mb-5 text-gray-100 ">
           <Slide cascade>
             <p className="font-bold text-3xl pb-9">About Me</p>
             <p className="text-sm">
@@ -71,7 +71,7 @@ export default function AboutMe() {
 
         <div className="flex md:justify-end justify-center">
           <Slide direction="right">
-            <div className="w-[390px]  h-[390px]   sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] lg:w-[450px] lg:h-[450px] rounded-[50%] overflow-hidden border-2 border-teal-500 shadow-lg shadow-gray-700">
+            <div className="w-[360px]  h-[360px]   sm:w-[300px] sm:h-[300px] md:w-[400px] md:h-[400px] lg:w-[450px] lg:h-[450px] rounded-[50%] overflow-hidden border-2 border-teal-500 shadow-lg shadow-gray-700">
               <img
                 src={profile}
                 alt="author-picture"
