@@ -1,6 +1,7 @@
 import React from "react";
 import github from "../../public/github-circular.png";
 import { LiaLinkSolid } from "react-icons/lia";
+import { Bounce } from "react-awesome-reveal";
 
 export default function Card({ num, title, desc, liveUrl, gitHubUrl }) {
   return (
