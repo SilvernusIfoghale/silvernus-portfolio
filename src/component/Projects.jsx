@@ -14,7 +14,7 @@ export default function Projects() {
           </p>
         </Slide>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 ">
-          <Bounce cascade>
+          <Bounce>
             <Card
               num="01"
               title=" Medium Landing Page"
