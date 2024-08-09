@@ -8,10 +8,10 @@ export default function AboutMe() {
   return (
     <>
       <div
-        className="grid  sm:grid-cols-2 place-content-center items-center text-gray-100 gap-10 my-20  pt-10"
+        className="grid  sm:grid-cols-2 place-content-center items-center  gap-10 my-20  pt-10"
         id="about"
       >
-        <div className="mb-5">
+        <div className="mb-5 text-gray-100">
           <p className="font-bold text-3xl pb-9">About Me</p>
           <p className="text-sm">
             I'm the developer you've been searching for - passionate, driven,
