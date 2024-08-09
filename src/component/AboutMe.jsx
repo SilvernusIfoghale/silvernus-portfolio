@@ -1,5 +1,8 @@
 import React from "react";
 import profile from "../../public/profile.jpg";
+import linkedin from "../../public/linkedin.png";
+import x from "../../public/x.png";
+import github from "../../public/github.png";
 
 export default function AboutMe() {
   return (
@@ -15,6 +18,15 @@ export default function AboutMe() {
             collaborate and turn your vision into reality!{" "}
           </p>
           <div className="flex my-6 gap-5">
+            <div className="border-2 border-gray-400 w-[40px] h-[40px] rounded-full flex justify-center items-center">
+              <div className=" rounded-full overflow-hidden border-transparent border-2">
+                <img
+                  className=" object-cover w-full h-full rounded-full"
+                  src={linkedin}
+                  alt="linkedin"
+                />
+              </div>
+            </div>
             <p>Linkin</p>
             <p>X</p>
             <p>GitHub</p>
