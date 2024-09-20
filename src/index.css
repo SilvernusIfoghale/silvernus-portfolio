@@ -5,3 +5,6 @@
 body {
   background-image: linear-gradient(to right, #0d9488, #115e59);
 }
+html {
+  scroll-behavior: smooth;
+}
