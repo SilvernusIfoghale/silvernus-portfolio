@@ -1,5 +1,5 @@
-import React from "react";
 import html from "../../public/html.png";
+import nextjs from "../../public/nextjs.png";
 import css from "../../public/css.png";
 import js from "../../public/javascript.png";
 import react from "../../public/react.png";
@@ -20,11 +20,11 @@ export default function Technologies() {
               Technologies I'm Familiar With
             </p>
             <p className="text-[0.9rem] text-gray-200 font-semibold py-5 leading-7">
-              I specialize in frontend technologies like HTML, CSS, and
-              JavaScript, alone with libraries like React. With expertise in
-              design and usability, I create responsive websites for seamless
-              user experiences. I'm also proficient in Git for efficient code
-              management.
+              I specialize in frontend technologies like HTML, CSS, JavaScript,
+              along with libraries and frameworks such as React, Next.js, and
+              TypeScript. With expertise in design and usability, I create
+              responsive websites for seamless user experiences. I'm also
+              proficient in Git for efficient code management.
             </p>
           </Bounce>
         </div>
@@ -80,6 +80,15 @@ export default function Technologies() {
               <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
                 <img
                   src={react}
+                  alt=""
+                  className="w-full h-full object-contain "
+                />
+              </div>
+            </div>
+            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
+              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
+                <img
+                  src={nextjs}
                   alt=""
                   className="w-full h-full object-contain "
                 />
