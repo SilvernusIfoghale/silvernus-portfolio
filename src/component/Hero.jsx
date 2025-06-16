@@ -1,4 +1,3 @@
-import React from "react";
 import { Fade } from "react-awesome-reveal";
 import { Typewriter } from "react-simple-typewriter";
 import wave from "../../public/wave.png";
@@ -14,7 +13,7 @@ function Hero() {
             Hello <img src={wave} alt="" className="inline w-9 h-9 mb-2" />
           </p>
           <p className="text-5xl   sm:text-6xl font-bold text-gray-100 h-[130px] sm:h-[100px]  ">
-            I'm
+            I&apos;m
             <span className="text-gray-800 ">
               {" "}
               <Typewriter
