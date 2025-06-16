@@ -66,6 +66,13 @@ export default function Projects() {
               liveUrl="https://silvernusifoghale.github.io/url-shortener/"
               gitHubUrl="https://github.com/SilvernusIfoghale/SilvernusIfoghale.github.io/tree/main/url-shortener"
             />
+            <Card
+              num="08"
+              title="Calculator App"
+              desc="The calculator app offers a functional calculator with three theme options, allowing users to customize their experience while performing calculations."
+              liveUrl="https://dclc-react-course.vercel.app/#/calculator"
+              gitHubUrl="https://github.com/SilvernusIfoghale/SilvernusIfoghale.github.io/tree/main/calculator-app"
+            />
           </Bounce>
         </div>
       </div>
