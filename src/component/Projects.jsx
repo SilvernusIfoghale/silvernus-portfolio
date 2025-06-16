@@ -1,56 +1,44 @@
-import React from "react";
-import github from "../../public/github-circular.png";
-import { LiaLinkSolid } from "react-icons/lia";
 import Card from "./Card";
 import { Bounce, Slide } from "react-awesome-reveal";
 
 export default function Projects() {
   return (
     <>
-      <div className="w-80 sm:w-full mb-36 pt-10" id="project">
+      <div className="w-80 mx-auto  sm:w-full mb-36 pt-10" id="project">
         <Slide direction="left">
           <p className="text-gray-200 text-[2.7rem] font-bold pb-6 ">
-            Projects I've Worked on
+            Projects I&apos;ve Worked on
           </p>
         </Slide>
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 ">
           <Bounce>
             <Card
               num="01"
-              title=" Medium Landing Page"
-              desc=" Leveraged ReactJs, TailwindCss in replicating the Medium landing
-              page, responsive design across various devices to enhance user
-              engagement and satisfaction."
-              liveUrl="https://medium-landing-page-alpha.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/medium-landing-page
-"
+              title="Note App"
+              desc="The Note Application offers easy note taking, powerful search functionality, and light/dark mode options, enhancing productivity and user comfort."
+              liveUrl="https://note-application-livid.vercel.app/"
+              gitHubUrl="https://github.com/SilvernusIfoghale/note-app"
             />
             <Card
               num="02"
-              title=" Quote Generator"
-              desc="Simple and elegant Ui design, this application involves
-              integration of an endpoint, real-time fetching of data, dynamic
-              rendering of quote as chosen by the user."
-              liveUrl="https://quote-generator-nu-sand.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/quote-generator"
+              title="Nestify"
+              desc="The property listing website enables landlords to list properties, while tenants can view listings and pay rent if satisfied. Users can log in with Facebook or Google for convenience."
+              liveUrl="https://nestify-one.vercel.app/"
+              gitHubUrl="https://github.com/SilvernusIfoghale/TechyJaunt-Project"
             />
             <Card
               num="03"
-              title="Dynamic Form"
-              desc="Form validation app done using ReactJs and TailwindCss, data
-              entered on each input area are checked critically against a set of
-              rule before submission privilege is granted."
-              liveUrl="https://react-dynamic-form-theta.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/react-form"
+              title="Multi-step Form"
+              desc="The multi-step form includes validation for each step and allows users to navigate through multiple form fields sequentially, ensuring a smooth and organized data entry process."
+              liveUrl="https://dclc-react-course.vercel.app/#/multi-form"
+              gitHubUrl="https://github.com/SilvernusIfoghale/dclc-react-course/tree/main/src/multi-step-form"
             />
             <Card
               num="04"
-              title="Spotify Landing Page"
-              desc="Replicating the landing page of Spotify, using ReactJs javascript
-              library and TailwindCss Css framework, making the page responsive
-              with a close margin for each details."
-              liveUrl="https://spotify-landing-page-ten.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/spotify-landing-page"
+              title="E-Commerce Product Page"
+              desc="The e-commerce product page features options to add items to the cart, remove items from the cart, and view image thumbnails for different product versions, enhancing the shopping experience."
+              liveUrl="https://dclc-nextjs-course.vercel.app/e-commerce"
+              gitHubUrl="https://github.com/SilvernusIfoghale/dclc-nextjs-course/tree/main/app/e-commerce"
             />
             <Card
               num="05"
@@ -73,13 +61,10 @@ export default function Projects() {
             />
             <Card
               num="07"
-              title="Photo Gallery"
-              desc="Luxury of all catalogue of images, ranging from nature, to
-              electronic devices, to abstract, the list is endless, images are
-              been fetch dynamically from an open source Api and seamlessly
-              integrated in the application."
-              liveUrl="https://photo-gallery-taupe-gamma.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/photo-gallery"
+              title="Url Shortener"
+              desc="The URL shortener uses an open-source API to efficiently shorten lengthy, valid URLs, making them easier to share and manage."
+              liveUrl="https://silvernusifoghale.github.io/url-shortener/"
+              gitHubUrl="https://github.com/SilvernusIfoghale/SilvernusIfoghale.github.io/tree/main/url-shortener"
             />
           </Bounce>
         </div>
