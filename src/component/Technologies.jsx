@@ -1,129 +1,56 @@
-import html from "../../public/html.png";
-import nextjs from "../../public/nextjs.png";
-import css from "../../public/css.png";
-import js from "../../public/javascript.png";
-import react from "../../public/react.png";
-import node from "../../public/node.png";
-import bootstrap from "../../public/bootstrap.png";
-import tailwind from "../../public/tailwind.png";
-import git from "../../public/git.png";
-import github from "../../public/github.png";
+import { 
+  SiHtml5, SiCss3, SiJavascript, SiTypescript, 
+  SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, 
+  SiGit, SiGithub, SiFlutter, SiDart, SiFirebase 
+} from "react-icons/si";
 import { Bounce } from "react-awesome-reveal";
+
+const techStack = [
+  { name: "React Native", icon: SiReact, color: "text-[#61DAFB]" },
+  { name: "Flutter", icon: SiFlutter, color: "text-[#02569B]" },
+  { name: "React", icon: SiReact, color: "text-[#61DAFB]" },
+  { name: "Next.js", icon: SiNextdotjs, color: "text-white" },
+  { name: "TypeScript", icon: SiTypescript, color: "text-[#3178C6]" },
+  { name: "JavaScript", icon: SiJavascript, color: "text-[#F7DF1E]" },
+  { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-[#06B6D4]" },
+  { name: "Node.js", icon: SiNodedotjs, color: "text-[#339933]" },
+  { name: "Dart", icon: SiDart, color: "text-[#0175C2]" },
+  { name: "Firebase", icon: SiFirebase, color: "text-[#FFCA28]" },
+  { name: "Git", icon: SiGit, color: "text-[#F05032]" },
+  { name: "GitHub", icon: SiGithub, color: "text-white" },
+];
 
 export default function Technologies() {
   return (
-    <>
-      <div className="pt-10" id="experience">
-        <div className="my-10 w-[95%]">
-          <Bounce cascade>
-            <p className="text-white font-bold text-3xl pb-4">
-              Technologies I'm Familiar With
-            </p>
-            <p className="text-[0.9rem] text-gray-200 font-semibold py-5 leading-7">
-              I specialize in frontend technologies like HTML, CSS, JavaScript,
-              along with libraries and frameworks such as React, Next.js, and
-              TypeScript. With expertise in design and usability, I create
-              responsive websites for seamless user experiences. I'm also
-              proficient in Git for efficient code management.
-            </p>
-          </Bounce>
-        </div>
-
-        <div className="flex flex-wrap gap-7 mb-10 justify-center items-center">
-          <Bounce cascade damping={0.2}>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={html}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={css}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={js}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={bootstrap}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={tailwind}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={react}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={nextjs}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={node}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={git}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-            <div className="w-[70px] h-[70px] border-2 border-gray-400  rounded-full flex justify-center items-center ">
-              <div className="w-[55px] h-[55px] rounded-full bg-white overflow-hidden">
-                <img
-                  src={github}
-                  alt=""
-                  className="w-full h-full object-contain "
-                />
-              </div>
-            </div>
-          </Bounce>
-        </div>
+    <div className="py-24 border-t border-white/5" id="experience">
+      <div className="max-w-3xl mb-16">
+        <Bounce cascade>
+          <h2 className="text-4xl font-bold text-white mb-6">
+            Tech Stack & Tools
+          </h2>
+          <p className="text-gray-400 text-lg leading-relaxed">
+            I specialize in building high-quality applications across web and mobile platforms. 
+            My expertise spans from modern frontend frameworks to cross-platform mobile development 
+            and backend integration.
+          </p>
+        </Bounce>
       </div>
-    </>
+
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <Bounce cascade damping={0.1}>
+          {techStack.map((tech, index) => (
+            <div 
+              key={index}
+              className="group p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-blue-500/50 hover:bg-blue-500/5 transition-all duration-300 flex flex-col items-center gap-4"
+            >
+              <tech.icon className={`text-4xl ${tech.color} group-hover:scale-110 transition-transform duration-300`} />
+              <span className="text-sm font-medium text-gray-400 group-hover:text-white transition-colors">
+                {tech.name}
+              </span>
+            </div>
+          ))}
+        </Bounce>
+      </div>
+    </div>
   );
 }

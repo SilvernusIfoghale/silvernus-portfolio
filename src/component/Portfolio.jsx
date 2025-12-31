@@ -10,9 +10,9 @@ import Footer from "./Footer";
 export default function Portfolio() {
   return (
     <>
-      <div className="w-full h-auto bg-gradient-to-r from-teal-600 to-teal-800 ">
+      <div className="w-full h-auto bg-[#0a0a0a] text-white selection:bg-blue-500/30">
         <NavBar />
-        <div className="px-12">
+        <div className="max-w-7xl mx-auto px-6 sm:px-12">
           <Hero />
           <Projects />
           <AboutMe />

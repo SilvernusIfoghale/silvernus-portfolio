@@ -3,79 +3,77 @@ import { Bounce, Slide } from "react-awesome-reveal";
 
 export default function Projects() {
   return (
-    <>
-      <div className="w-80 mx-auto  sm:w-full mb-36 pt-10" id="project">
+    <div className="py-24 border-t border-white/5" id="project">
+      <div className="flex flex-col md:flex-row md:items-end justify-between mb-16 gap-6">
         <Slide direction="left">
-          <p className="text-gray-200 text-[2.7rem] font-bold pb-6 ">
-            Projects I&apos;ve Worked on
-          </p>
+          <div className="max-w-2xl">
+            <h2 className="text-4xl font-bold text-white mb-6">Featured Projects</h2>
+            <p className="text-gray-400 text-lg">
+              A collection of my recent work, ranging from complex web platforms 
+              to my latest explorations in mobile development.
+            </p>
+          </div>
         </Slide>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-7 ">
-          <Bounce>
-            <Card
-              num="01"
-              title="Note App"
-              desc="The Note Application offers easy note taking, powerful search functionality, and light/dark mode options, enhancing productivity and user comfort."
-              liveUrl="https://note-application-livid.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/note-app"
-            />
-            <Card
-              num="02"
-              title="Nestify"
-              desc="The property listing website enables landlords to list properties, while tenants can view listings and pay rent if satisfied. Users can log in with Facebook or Google for convenience."
-              liveUrl="https://nestify-one.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/TechyJaunt-Project"
-            />
-            <Card
-              num="03"
-              title="Multi-step Form"
-              desc="The multi-step form includes validation for each step and allows users to navigate through multiple form fields sequentially, ensuring a smooth and organized data entry process."
-              liveUrl="https://dclc-react-course.vercel.app/#/multi-form"
-              gitHubUrl="https://github.com/SilvernusIfoghale/dclc-react-course/tree/main/src/multi-step-form"
-            />
-            <Card
-              num="04"
-              title="E-Commerce Product Page"
-              desc="The e-commerce product page features options to add items to the cart, remove items from the cart, and view image thumbnails for different product versions, enhancing the shopping experience."
-              liveUrl="https://dclc-nextjs-course.vercel.app/e-commerce"
-              gitHubUrl="https://github.com/SilvernusIfoghale/dclc-nextjs-course/tree/main/app/e-commerce"
-            />
-            <Card
-              num="05"
-              title="Todo-List"
-              desc="Leveraged ReactJs, TailwindCss in replicating a Todo-App, gets
-              tasks for the user and save them on the user's local storage for
-              easy retrieval on request."
-              liveUrl="https://todo-list-app-silver.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/todo-list-app"
-            />
-            <Card
-              num="06"
-              title="Weather App"
-              desc="Get access to current Weather condition of any city at a snap of
-              your finger, input a valid city name in the input area and get
-              real-time feedback almost instantly, project done with TailwindCss
-              and ReactJs."
-              liveUrl="https://weather-application-three-zeta.vercel.app/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/weather-app"
-            />
-            <Card
-              num="07"
-              title="Url Shortener"
-              desc="The URL shortener uses an open-source API to efficiently shorten lengthy, valid URLs, making them easier to share and manage."
-              liveUrl="https://silvernusifoghale.github.io/url-shortener/"
-              gitHubUrl="https://github.com/SilvernusIfoghale/SilvernusIfoghale.github.io/tree/main/url-shortener"
-            />
-            <Card
-              num="08"
-              title="Calculator App"
-              desc="The calculator app offers a functional calculator with three theme options, allowing users to customize their experience while performing calculations."
-              liveUrl="https://dclc-react-course.vercel.app/#/calculator"
-              gitHubUrl="https://github.com/SilvernusIfoghale/SilvernusIfoghale.github.io/tree/main/calculator-app"
-            />
-          </Bounce>
-        </div>
+        <Slide direction="right">
+          <div className="flex gap-4">
+            <span className="px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20 text-blue-400 text-sm font-medium">
+              Web Development
+            </span>
+            <span className="px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-400 text-sm font-medium">
+              Mobile Apps
+            </span>
+          </div>
+        </Slide>
       </div>
-    </>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <Bounce cascade damping={0.1}>
+          <Card
+            num="01"
+            title="KonfirmTech Africa"
+            desc="A cutting-edge platform that leverages technology to streamline and enhance the process of verifying academic and professional credentials across Africa."
+            liveUrl="https://konfirmtechafrica.com/"
+            gitHubUrl="https://github.com/SilvernusIfoghale"
+          />
+          <Card
+            num="02"
+            title="Certificate Access Portal"
+            desc="A security-first digital credential platform designed for the Techyjaunt alumni community. Features robust verification and tamper-proof access."
+            liveUrl="https://alumni.techyjaunt.com/"
+            gitHubUrl="https://github.com/Techy-Jaunt/certificate-verification-system"
+          />
+          <Card
+            num="03"
+            title="Nestify"
+            desc="Property listing website enabling landlords to list properties and tenants to pay rent. Integrated with social login for seamless access."
+            liveUrl="https://nestify-one.vercel.app/"
+            gitHubUrl="https://github.com/SilvernusIfoghale/TechyJaunt-Project"
+          />
+          <Card
+            num="04"
+            title="Movie Discovery"
+            desc="A full-featured discovery platform allowing movie enthusiasts to search global databases and manage personal collections."
+            liveUrl="https://movie-app-ivory-theta.vercel.app/"
+            gitHubUrl="https://github.com/SilvernusIfoghale/movie-app"
+          />
+          <Card
+            num="05"
+            title="Note App"
+            desc="Productivity tool with powerful search, light/dark modes, and local storage integration for seamless note-taking."
+            liveUrl="https://note-application-livid.vercel.app/"
+            gitHubUrl="https://github.com/SilvernusIfoghale/note-app"
+          />
+          <div className="group relative bg-gradient-to-br from-blue-900/20 to-purple-900/20 rounded-2xl p-6 border border-blue-500/20 flex flex-col justify-center items-center text-center min-h-[350px]">
+            <div className="w-16 h-16 rounded-full bg-blue-500/20 flex items-center justify-center mb-4">
+              <span className="text-2xl animate-pulse">📱</span>
+            </div>
+            <h3 className="text-xl font-bold text-white mb-2">Mobile Project</h3>
+            <p className="text-gray-400 text-sm">
+              Currently building something amazing with React Native. Stay tuned!
+            </p>
+          </div>
+        </Bounce>
+      </div>
+    </div>
   );
 }
