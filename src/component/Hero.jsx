@@ -40,11 +40,11 @@ function Hero() {
             <span className="text-sm text-gray-500 uppercase tracking-wider">Years Exp.</span>
           </div>
           <div className="flex flex-col">
-            <span className="text-2xl font-bold text-white">20+</span>
+            <span className="text-2xl font-bold text-white">5+</span>
             <span className="text-sm text-gray-500 uppercase tracking-wider">Projects</span>
           </div>
           <div className="flex flex-col">
-            <span className="text-2xl font-bold text-white">10+</span>
+            <span className="text-2xl font-bold text-white">3+</span>
             <span className="text-sm text-gray-500 uppercase tracking-wider">Happy Clients</span>
           </div>
         </div>
