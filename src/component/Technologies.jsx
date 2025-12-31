@@ -1,7 +1,8 @@
 import { 
   SiHtml5, SiCss3, SiJavascript, SiTypescript, 
   SiReact, SiNextdotjs, SiTailwindcss, SiNodedotjs, 
-  SiGit, SiGithub, SiFlutter, SiDart, SiFirebase 
+  SiGit, SiGithub, SiFlutter, SiDart, SiFirebase,
+  SiMongodb, SiSass, SiFramer, SiBootstrap, SiShadcnui
 } from "react-icons/si";
 import { Bounce } from "react-awesome-reveal";
 
@@ -14,6 +15,11 @@ const techStack = [
   { name: "JavaScript", icon: SiJavascript, color: "text-[#F7DF1E]" },
   { name: "Tailwind CSS", icon: SiTailwindcss, color: "text-[#06B6D4]" },
   { name: "Node.js", icon: SiNodedotjs, color: "text-[#339933]" },
+  { name: "MongoDB", icon: SiMongodb, color: "text-[#47A248]" },
+  { name: "Sass/SCSS", icon: SiSass, color: "text-[#CC6699]" },
+  { name: "Framer Motion", icon: SiFramer, color: "text-white" },
+  { name: "Bootstrap", icon: SiBootstrap, color: "text-[#7952B3]" },
+  { name: "Shadcn/UI", icon: SiShadcnui, color: "text-white" },
   { name: "Dart", icon: SiDart, color: "text-[#0175C2]" },
   { name: "Firebase", icon: SiFirebase, color: "text-[#FFCA28]" },
   { name: "Git", icon: SiGit, color: "text-[#F05032]" },
